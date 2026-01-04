@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SHA RESTAURANT</title>
+        <style>
+           * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Basic font, replace with your custom font */
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- 2. Header and Navigation --- */
+header {
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d63031; /* Approximate primary red color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d63031;
+}
+
+.cta-phone {
+    background-color: #d63031; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* --- 3. Hero Section (Main Content) --- */
+.hero-section {
+    padding: 80px 0; 
+    min-height: 80vh; 
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: center; /* Vertically aligns the content and image */
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1; /* Allows content to take up half the space */
+    max-width: 50%;
+}
+
+.hero-image {
+    flex: 1; /* Allows image to take up the other half */
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    /* Ensure the image doesn't overflow its container */
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* --- 4. Button Styling --- */
+.hero-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border: 2px solid transparent; /* Used for the secondary button's border */
+}
+
+.btn i {
+    margin-right: 8px; /* Space for the icon */
+}
+
+/* Primary Button (Order Now) */
+.btn-primary {
+    background-color: #d63031; 
+    color: #fff;
+    border-color: #d63031;
+}
+
+.btn-primary:hover {
+    background-color: #b02425;
+    box-shadow: 0 4px 8px rgba(214, 48, 49, 0.3);
+}
+
+/* Secondary Button (Learn More) */
+.btn-secondary {
+    background-color: #fff;
+    color: #555;
+    border-color: #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.btn-secondary:hover {
+    background-color: #f8f8f8;
+    color: #333;
+    border-color: #999;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">SHA RESTAURANT</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="Home">
+                <h1>The Taste That<br>Make You Feel<br>Delicious</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                <div class="hero-actions">
+                    <a href="#" class="button">learn more</a>
+                </div>
+                <div class="hero-actions">
+                    <img src="../Desktop/Project/images/1.jpg" alt="1" width="700" height="500px">
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
